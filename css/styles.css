@@ -9,3 +9,8 @@
 #python {
   display: none;
 }
+
+body {
+  background-color: black;
+  color: beige;
+}
