@@ -34,3 +34,9 @@ $(document).ready(function() {
     }
   });
 });
+$(document).ready(function() {
+  $("#darkness").click(function(event) {
+    event.preventDefault();
+    $("body").addClass("darkMode");
+  });
+});

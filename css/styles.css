@@ -10,7 +10,7 @@
   display: none;
 }
 
-body.darkMode {
+.darkMode {
   background-color: black;
   color: beige;
 }
