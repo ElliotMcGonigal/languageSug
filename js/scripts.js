@@ -34,9 +34,17 @@ $(document).ready(function() {
     }
   });
 });
+let darkMTest = 0;
 $(document).ready(function() {
   $("#darkness").click(function(event) {
     event.preventDefault();
-    $("body").addClass("darkMode");
+    $("body").removeClass();
+    if (darkMTest === 0) {
+      $("body").addClass("darkMode");
+      darkMTest = 1;
+    }
+    else if (darkMTest === 1) {
+      darkMTest = 0;
+    }
   });
 });
