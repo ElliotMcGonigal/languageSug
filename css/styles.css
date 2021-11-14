@@ -10,7 +10,11 @@
   display: none;
 }
 
-body {
+body.darkMode {
   background-color: black;
   color: beige;
+}
+
+#darkness {
+  float: right;
 }
